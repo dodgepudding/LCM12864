@@ -41,7 +41,8 @@ void Display_on();	//打开整体显示
 void Display_off();	//关闭整体显示  
 void Draw_on();		//打开绘图模式  
 void Draw_off();	//关闭绘图模式  
-void SendData(unsigned char);  //发送指令数据
+void SendData(unsigned char);  //发送指令数据  
+
 /*************************功能函数*******************************/  
 void Cursor_on();	//游标闪烁开  
 void Cursor_off();	//游标闪烁关  
