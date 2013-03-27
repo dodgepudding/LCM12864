@@ -1,7 +1,7 @@
 /************************************************************************************
 **                            YM12864Çý¶¯Ä£¿é
-**                     (c) Copyright 2007-2008, Dodge
-**					https://github.com/dodgepudding/LCM2864
+**                     (c) Copyright 2007-2013, Dodge
+**					https://github.com/dodgepudding/LCM12864
 **                          All Rights Reserved
 **
 **                              V1.00.12

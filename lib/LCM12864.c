@@ -2,7 +2,7 @@
 **                            YM12864Çý¶¯Ä£¿é
 **                     (c) Copyright 2007-2013, Dodge
 **                          All Rights Reserved
-**					https://github.com/dodgepudding/LCM2864
+**					https://github.com/dodgepudding/LCM12864
 **
 **                              V1.00.14
 *************************************************************************************/

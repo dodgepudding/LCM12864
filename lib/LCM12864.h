@@ -2,7 +2,7 @@
 **                            YM12864驱动模块
 **                     (c) Copyright 2007-2008, Dodge
 **                          All Rights Reserved
-**					https://github.com/dodgepudding/LCM2864
+**					https://github.com/dodgepudding/LCM12864
 **
 **                              V1.00.12
 ---------------------------------文件信息--------------------------------------------
