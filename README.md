@@ -10,8 +10,8 @@ LCM12864.h  引脚配置定义及头文件引用
 移植定义
 -------
 * 宏定义说明：  
-  __USE_SPI_MODE__ 		在头文件定义此宏来声明使用串行方式通信  
-  __USE_PARALLEL_MODE__ 在头文件定义此宏声明使用并行方式通信  
+  \_\_USE_SPI_MODE\_\_ 		在头文件定义此宏来声明使用串行方式通信  
+  \_\_USE_PARALLEL_MODE\_\_ 在头文件定义此宏声明使用并行方式通信  
   LCD12864_CMD_xxxx 	LCD基本指令字  
   LCD12864_DATA_xxxx    LCD的RAM数据操作  
   LCD12864_EXTCMD_xxxx  LCD扩展指令字  
@@ -25,10 +25,10 @@ LCM12864.h  引脚配置定义及头文件引用
 
 使用方法
 -------
-  1）修改LCM12864.H头文件相应配置 ；
-  2）运行液晶初始化函数LCDInit()，若并行模式，要在这之后加一定延时;
-  3）运行各功能函数打字，绘图等，例如：
-  PutStr(0,0,"欢迎使用PDODGE的液晶驱动模块")；//表示在第0行0列输出字符串
+  1）修改LCM12864.H头文件相应配置；  
+  2）运行液晶初始化函数LCDInit()，若并行模式，要在这之后加一定延时;  
+  3）运行各功能函数打字，绘图等，例如：  
+  PutStr(0,0,"欢迎使用PDODGE的液晶驱动模块")；//表示在第0行0列输出字符串  
   DrawBMP(buf);//将图形缓冲区的点阵数据输出到LCD  
   
 功能函数
@@ -41,7 +41,7 @@ void Display_on();	//打开整体显示
 void Display_off();	//关闭整体显示  
 void Draw_on();		//打开绘图模式  
 void Draw_off();	//关闭绘图模式  
-void SendData(unsigned char);
+void SendData(unsigned char);  //发送指令数据
 /*************************功能函数*******************************/  
 void Cursor_on();	//游标闪烁开  
 void Cursor_off();	//游标闪烁关  
